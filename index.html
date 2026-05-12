@@ -30,69 +30,97 @@
         ></script>
     </head>
     <body>
-        <div class="hero">
-            <p>👋 Hello, I am</p>
-            <h1>Boitumelo Rakgole</h1>
-            <h2 class="mb-5">Front-end developer based in South Africa</h2>
-        <div>
-            <a href="#" class="btn btn-branding">Contact me</a>
-        </div>
-        </div>
-            <p class="text-center m-5">
-                Featuring My Best Projects
-            </p>
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col d-none d-lg-block">
-                    <img src="images/yogurt.webp" class="img-fluid" alt="" />
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="/" title="Homepage">Boitumelo Rakgole</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav" style>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/" tilte="Homepage">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about.html" title="About Boitumelo">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about.html#contact" title="Contact Boitumelo Rakgole">Contact Me</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col">
-                    <div class="project-desciption">
-                        <h2 class="mb-5">Yogurt Project</h2>
-                        <p class="mb-5 text-muted">
-                            Yogurt has been consumed for thousands of years, with origins traced to ancient civilizations such as the Egyptians, Greeks, and Romans, and references in Indian Ayurvedic texts dating back to 6000 BCE. 
-                            The word "yogurt" comes from the Turkish word yoğurmak, meaning to thicken or curdle. 
-                            Early nomadic herdsmen discovered that milk carried in animal skin pouches would naturally ferment due to body heat, producing a longer-lasting, edible product. 
-                        </p>    
-                        <a href="" class="btn btn-branding-outline"> Learn more </a>
-                    </div>
+            </div>
+        </nav>
+
+        <div class="pt-5 mt-5"> 
+            <h2 class="text-center">👋 Hello, I am</h2>
+            <h1 class="text-center">Boitumelo Rakgole</h1>
+            <h3 class="text-center">Front-end developer based in South Africa</h3>
+        </div>
+
+        <div class="navigation-links mb-5">
+            <a href="/about.html#contact" class="primary-link" title="Contact Boitumelo Rakgole">
+                Contact Me
+            </a>
+            <a href="/about.html" class="secondary-link" title="About Boitumelo Rakgole">
+                About Me
+            </a>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="images/yogurt.webp" class="img-fluid rounded d-none d-sm-block" alt="Yogurt Project" />
+                </div>
+                <div class="col-sm-6">
+                    <h2 class="mb-3">
+                        Yogurt Project
+                    </h2>
+                    <p>
+                        Yogurt has been consumed for thousands of years, with origins traced to ancient civilizations such as the Egyptians, Greeks, and Romans, and references in Indian Ayurvedic texts dating back to 6000 BCE. 
+                        The word "yogurt" comes from the Turkish word yoğurmak, meaning to thicken or curdle. 
+                        Early nomadic herdsmen discovered that milk carried in animal skin pouches would naturally ferment due to body heat, producing a longer-lasting, edible product. 
+                    </p>
                 </div>
             </div>
 
-            <div class="row mb-5">
-                <div class="col">
-                    <div class="project-desciption">
-                        <h2 class="mb-5">Weather App</h2>
-                        <p class="mb-5 text-muted">
-                            Far far away, behind the word mountains, far from the countries
+            <div class="row mt-5">
+                <div class="col-sm-6">
+                    <h2 class="mb-3">Weather App</h2>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries
                             Vokalia and Consonantia, there live the blind texts. Separated
                             they live in Bookmarksgrove right at the coast of the Semantics, a
                             large language ocean. A small river named Duden flows by
-                        </p>
-                        <a href="" class="btn btn-branding-outline"> Learn more </a>
+                    </p>
+                    <div class="mt-5">
+                        <a href="#" class="primary-link project-link" title="Weather App Project">Launch Weather App</a>
                     </div>
                 </div>
-                <div class="col d-none d-lg-block">
-                    <img src="images/weather.jpg" class="img-fluid" alt="" />
+                <div class="col-sm-6">
+                    <img src="images/weather.jpg" class="img-fluid rounded d-none d-sm-block" alt="Weather project" />
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col d-none d-lg-block">
-                    <img src="images/yoga.webp" class="img-fluid" alt="" />
+            <div class="row mt-5">
+                <div class="col-sm-6">
+                    <img src="images/yoga.webp" class="img-fluid rounded d-none d-sm-block" alt="Yoga project"  />
+                </div>
+
+                <div class="col-sm-6" >
+                    <h2 class="mb-3">Yoga App</h2>
+                    <p>
+                        The practice has roots in Northern India, dating back to around 5,000 years ago. Ancient yogis developed it to attain a body, mind, and spirit union. 
+                        Yogis believed that yoga could help connect to a higher power and be in a state of inner peace and tranquility. 
+                        As you would expect, this practice has evolved into many different forms over time. However, each offers unique styles and benefits that help to enhance your well-being. 
+                    </p>
+
+                    <div class="mt-5">
+                        <a href="#" class="primary-link project-link" title="Yoga app">Launch Yoga App</a>
                     </div>
-                    <div class="col">
-                        <div class="project-desciption">
-                            <h2 class="mb-5">Yoga Project</h2>        
-                            <p class="mb-5 text-muted">
-                                The practice has roots in Northern India, dating back to around 5,000 years ago. Ancient yogis developed it to attain a body, mind, and spirit union. 
-                                Yogis believed that yoga could help connect to a higher power and be in a state of inner peace and tranquility. 
-                                As you would expect, this practice has evolved into many different forms over time. However, each offers unique styles and benefits that help to enhance your well-being. 
-                            </p>
-                            <a href="" class="btn btn-branding-outline"> Learn more </a>
-                        </div>
-                    </div>
+                </div>
             </div>
         </div>
+  
     </body>
 </html>
